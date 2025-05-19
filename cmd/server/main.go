@@ -1,7 +1,8 @@
 package main
 
-import "fmt"
+import "go_ecommerce_backend/internal/routers"
 
 func main() {
-	fmt.Println("Startin")
+	router := routers.NewRouters()
+	router.Run(":8002") // listen and serve on 0.0.0.0:8080
 }
