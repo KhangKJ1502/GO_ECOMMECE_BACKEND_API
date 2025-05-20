@@ -21,6 +21,6 @@ func NewUserController() *UserController {
 // us user service
 // Controller => service => repo => models =>dbs
 func (uc *UserController) GetUserByID(c *gin.Context) {
-	// respone.SuccesRespone(c, 20003, []string{"khangKJ", "cr7", "KhangYT"})
-	respone.ErroRespone(c, 20003, "")
+	// respone.SuccesRespone(c, 20003, []string{"khangKJ", "cr7", "KhangYT"}) //Nhận Repo không lỗilỗi
+	respone.ErroRespone(c, 20003, "") // Nhận repo khi thiếu thông tin
 }

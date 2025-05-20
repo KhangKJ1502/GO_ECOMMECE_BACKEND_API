@@ -1,4 +1,4 @@
-package routers
+package initialize
 
 import (
 	"fmt"
@@ -30,7 +30,7 @@ func CC(c *gin.Context) {
 	fmt.Println("Àfter --> CC")
 }
 
-func NewRouters() *gin.Engine {
+func InitRouters() *gin.Engine {
 	router := gin.Default()
 	router.Use(middlewares.AuthenMiddleware(), BB(), CC)
 	v1 := router.Group("/v1/2025")
