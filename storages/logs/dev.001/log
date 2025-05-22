@@ -1,0 +1,15 @@
+{"level":"INFO","Time":"2025-05-21T15:51:28.802+0700","caller":"initialize/run.go:15","msg":"Config Log ok!","Ok":"Success"}
+{"level":"INFO","Time":"2025-05-21T15:51:28.806+0700","caller":"initialize/mysql.go:37","msg":"InitMysql initialization success"}
+{"level":"INFO","Time":"2025-05-21T15:51:28.930+0700","caller":"initialize/redis.go:47","msg":"Value score:: ","score":"100"}
+{"level":"INFO","Time":"2025-05-21T15:51:45.168+0700","caller":"initialize/run.go:15","msg":"Config Log ok!","Ok":"Success"}
+{"level":"INFO","Time":"2025-05-21T15:51:45.176+0700","caller":"initialize/mysql.go:37","msg":"InitMysql initialization success"}
+{"level":"ERROR","Time":"2025-05-21T15:51:45.376+0700","caller":"initialize/redis.go:27","msg":"Redis initialization error","error":"dial tcp :0: connectex: The requested address is not valid in its context.","stacktrace":"go_ecommerce_backend/internal/initialize.InitRedis\n\tD:/OJT202/GO_ECOMMERCE-BACKEND_API/internal/initialize/redis.go:27\ngo_ecommerce_backend/internal/initialize.Run\n\tD:/OJT202/GO_ECOMMERCE-BACKEND_API/internal/initialize/run.go:17\nmain.main\n\tD:/OJT202/GO_ECOMMERCE-BACKEND_API/cmd/server/main.go:8\nruntime.main\n\tD:/GO/src/runtime/proc.go:283"}
+{"level":"INFO","Time":"2025-05-21T15:52:26.956+0700","caller":"initialize/run.go:15","msg":"Config Log ok!","Ok":"Success"}
+{"level":"INFO","Time":"2025-05-21T15:52:26.961+0700","caller":"initialize/mysql.go:37","msg":"InitMysql initialization success"}
+{"level":"INFO","Time":"2025-05-21T15:52:27.094+0700","caller":"initialize/redis.go:47","msg":"Value score:: ","score":"100"}
+{"level":"INFO","Time":"2025-05-21T15:52:44.112+0700","caller":"initialize/run.go:15","msg":"Config Log ok!","Ok":"Success"}
+{"level":"INFO","Time":"2025-05-21T15:52:44.117+0700","caller":"initialize/mysql.go:37","msg":"InitMysql initialization success"}
+{"level":"ERROR","Time":"2025-05-21T15:52:44.313+0700","caller":"initialize/redis.go:27","msg":"Redis initialization error","error":"dial tcp :0: connectex: The requested address is not valid in its context.","stacktrace":"go_ecommerce_backend/internal/initialize.InitRedis\n\tD:/OJT202/GO_ECOMMERCE-BACKEND_API/internal/initialize/redis.go:27\ngo_ecommerce_backend/internal/initialize.Run\n\tD:/OJT202/GO_ECOMMERCE-BACKEND_API/internal/initialize/run.go:17\nmain.main\n\tD:/OJT202/GO_ECOMMERCE-BACKEND_API/cmd/server/main.go:8\nruntime.main\n\tD:/GO/src/runtime/proc.go:283"}
+{"level":"INFO","Time":"2025-05-21T15:53:07.898+0700","caller":"initialize/run.go:15","msg":"Config Log ok!","Ok":"Success"}
+{"level":"INFO","Time":"2025-05-21T15:53:07.904+0700","caller":"initialize/mysql.go:37","msg":"InitMysql initialization success"}
+{"level":"INFO","Time":"2025-05-21T15:53:08.026+0700","caller":"initialize/redis.go:47","msg":"Value score:: ","score":"100"}

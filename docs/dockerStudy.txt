@@ -1,0 +1,16 @@
+0. Use dụng DB nào: USE shopdevgo;
+1. Xóa container cũ : docker rm -f mysqlgo8
+2. Tạo lại container với thông số mới: docker run -d `
+                                        --name mysqlgo8 `
+                                        -e MYSQL_ROOT_PASSWORD=root1234 `
+                                        -e MYSQL_DATABASE=shopdevgo `
+                                        -p 33306:3306 `
+                                        mysql:8
+3. Kiểm tra:  docker ps 
+4. Kiểm tra truy cập MySQL: docker exec -it mysqlgo8 bash
+                            mysql -uroot -proot1234
+
+5. Xem các bảng có trong container: SHOW TABLES;
+6. Xem các cột có trong bảng : DESCRIBE [Tên bảng];
+
+* Nhớ sau mỗi câu lệnh có dấu ;

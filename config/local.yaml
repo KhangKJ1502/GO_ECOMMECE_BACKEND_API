@@ -3,7 +3,7 @@ server:
 
 mysql: 
   host: 127.0.0.1
-  port: 33306
+  port: 33306   #cổng này chạy trên dockerr ko phải chay trên xammpp
   username: root
   password: root1234
   dbname: shopdevgo
@@ -15,11 +15,16 @@ security:
   jwt:
     key: abc123 
 
-Redis: 
-  user: admin
-elasticsearch:
-  user: admin
-rabittMQ:
-  user: admin
-kafka:
-  user: admin
+log:
+  log_level: debug
+  file_log_name: "./storages/logs/dev.001/log"
+  max_size: 500                  
+  max_backups: 3
+  max_age: 28
+  compress: true
+
+redis:
+    host: 127.0.0.1
+    port: 6379
+    password: 
+    database: 0

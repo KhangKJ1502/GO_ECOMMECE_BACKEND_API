@@ -34,7 +34,7 @@ func LoadCofig() {
 		fmt.Println("Unable to decode configuration:", err)
 	}
 	// fmt.Println("Config port ::", &global.Config.Server.Port)
-
+	// fmt.Println("Config port ::", &global.Config.Redis.Port)
 	// for _, db := range &global.Config.Database {
 	// 	fmt.Printf("Database User: %s, password: %s, Username: %s \n", db.User, db.Password, db.Host)
 	// }
